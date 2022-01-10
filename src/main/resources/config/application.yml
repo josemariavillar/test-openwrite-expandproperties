@@ -1,0 +1,7 @@
+management: test
+spring:
+  mail:
+    protocol: smtp
+    properties.mail.smtp.connectiontimeout: 5000
+    properties.mail.smtp.timeout: 5000
+    properties.mail.smtp.writetimeout: 5000
